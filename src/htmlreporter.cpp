@@ -214,11 +214,11 @@ void HtmlReporter::printCSS(ofstream& ofs){
     ofs << ".header {color:#ffffff;padding:1px;height:20px;background:#000000;}" << endl;
     ofs << ".section_title {color:#ffffff;font-size:20px;padding:5px;text-align:left;background:#663355; margin-top:10px;}" << endl;
     ofs << ".subsection_title {font-size:16px;padding:5px;margin-top:10px;text-align:left;color:#663355}" << endl;
-    ofs << "#container {text-align:center;padding:3px 3px 3px 10px;font-family:Arail,'Liberation Mono', Menlo, Courier, monospace;}" << endl;
+    ofs << "#container {text-align:center;padding:3px 3px 3px 10px;font-family:Arial,'Liberation Mono', Menlo, Courier, monospace;}" << endl;
     ofs << ".menu_item {text-align:left;padding-top:5px;font-size:18px;}" << endl;
     ofs << ".highlight {text-align:left;padding-top:30px;padding-bottom:30px;font-size:20px;line-height:35px;}" << endl;
     ofs << "#helper {text-align:left;border:1px dotted #fafafa;color:#777777;font-size:12px;}" << endl;
-    ofs << "#footer {text-align:left;padding:15px;color:#ffffff;font-size:10px;background:#663355;font-family:Arail,'Liberation Mono', Menlo, Courier, monospace;}" << endl;
+    ofs << "#footer {text-align:left;padding:15px;color:#ffffff;font-size:10px;background:#663355;font-family:Arial,'Liberation Mono', Menlo, Courier, monospace;}" << endl;
     ofs << ".kmer_table {text-align:center;font-size:8px;padding:2px;}" << endl;
     ofs << ".kmer_table td{text-align:center;font-size:8px;padding:0px;color:#ffffff}" << endl;
     ofs << ".sub_section_tips {color:#999999;font-size:10px;padding-left:5px;padding-bottom:3px;}" << endl;
